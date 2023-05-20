@@ -126,11 +126,13 @@
 @media (width<750px) {
     .container .box-container {
         grid-template-columns: repeat(1, 1fr);
-        padding: 5rem 2rem 1rem 1rem;
+        /* padding: 5rem 2rem 1rem 1rem; */
         text-align: center;
     }
     .container .box-container .box {
-        padding: 30px 20px;
+        padding: 50px 0px;
+        margin: 70px 0;
+        line-height: 8rem;
     }
     .tabcontent {
         margin-left: 1rem;
@@ -140,18 +142,18 @@
         margin-left: 4.5rem;
     }
     .container .box-container .box h1 {
-        font-size: 50px;
+        font-size: 80px;
         padding: 2rem 0;
         line-height: 2rem;
     }
     .container .box-container .box p {
-        font-size: 20px;
+        font-size: 40px;
     }
     .container .box-container .box h3 {
-        font-size: 30px;
+        font-size: 40px;
     }
     .container .box-container .box i {
-        font-size: 50px;
+        font-size: 80px;
     }
     .tab button {
         font-size: 40px;
