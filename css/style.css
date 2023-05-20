@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Poppins:wght@400;500&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Marck+Script&family=Poppins:wght@400;500&family=Satisfy&display=swap');
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -74,7 +74,7 @@
 
 .container .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 }
 
@@ -87,14 +87,14 @@
 }
 
 .container .box-container .box img {
-    height: 80px;
+    height: 12rem;
 }
 
 .container .box-container .box h1 {
     font-size: 30px;
     line-height: 2rem;
     padding: 10px;
-    font-family: "marck script", sans-serif;
+    font-family: "kalam", sans-serif;
     color: black;
     font-weight: bold;
 }
@@ -160,5 +160,8 @@
     }
     .tab {
         width: 1000px;
+    }
+    .container .box-container .box img {
+        height: 25rem;
     }
 }
